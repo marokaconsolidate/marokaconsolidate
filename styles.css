@@ -1,0 +1,176 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #ff4d00;
+}
+
+/* Header styles */
+header {
+    background-color: #fe8551;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner styles */
+.banner {
+    background: url('maroka.jpg') no-repeat center center/cover;
+    color: rgb(255, 230, 0);
+    text-align: center;
+    padding: 200px 20px;
+}
+
+.banner h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Services Section */
+.services {
+    padding: 45px 20px;
+    text-align: center;
+    background-color: #da8f6f;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    background-color: hwb(0 98% 2%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1rem;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+}
+
+.contact button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #c0392b;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    text-decoration: underline;
+}
