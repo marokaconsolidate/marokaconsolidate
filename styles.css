@@ -177,3 +177,52 @@ footer .social-icons a {
 footer .social-icons a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 600px)   {
+                             header .logo h1 {
+                                              font-size: 100%;
+                                             }
+
+                             header nav ul li a {
+                                                font-size: 100%;
+                                                }
+
+                             .banner {
+                                      padding: 160px 5px;
+                                     }
+
+                             .services {
+                                        padding: 30px 10px;
+                                       }
+                                    
+                             .services h2 {
+                                           font-size: 100%rem;
+                                           margin-bottom: 30px;
+                                          }
+                                    
+                             .service-card {
+                                            width: 30%;
+                                            padding: 2%;
+                                            margin: 2%;
+                                            border-radius: 10px;
+                                            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                                    }
+                                    
+                             .service-card h3 {
+                                        font-size: 100%;
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                             .service-card p {
+                                        font-size: 100%;
+                                    }
+
+                             .about {
+                                        padding: 35px 5px;
+                                    }
+                                    
+                             .about p {
+                                        font-size: 100%;
+                                    }
+                                                
+                            }
